@@ -1,6 +1,14 @@
 #!/bin/bash
 
-IP=$(ip addr show | grep wlp2s0 | grep inet | cut -d' ' -f6,8) 
+if [ $# -lt 1 ]; then
+ echo "ERROR: Must pass Network Interface as a parameter!"
+ echo "Usage: sudo ./FMP.sh <Network_Interface_Name>"
+ exit 0
+fi
+
+IFACE=$1
+
+IP=$(ip addr show | grep $IFACE | grep inet | cut -d' ' -f6,8) 
 IP_DEV=$(echo $IP | cut -d' ' -f1) 
 IP_BRD=$(echo $IP | cut -d' ' -f2)
 
