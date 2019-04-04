@@ -1,12 +1,16 @@
 # FindMyPi
-A little Bash script whose aim is to help me find my RaspberryPi (model 3) in a local network.
 
-## Usage:
+## A little Bash script whose aim is to help me find my RaspberryPi (model 3) in a local network.
+
+[![DevelopmentStatus](https://img.shields.io/badge/Development-Stopped-red.svg)](https://img.shields.io/badge/Development-Stopped-red.svg)
+[![HitCount](http://hits.dwyl.io/Mrcuve0/FindMyPi.svg)](http://hits.dwyl.io/Mrcuve0/FindMyPi)
+
+### Usage:
 ```
 > sudo ./FMP.sh <Network_Interface_Name>
 ```
 
-## Here's an example:
+### Here's an example:
 ```
 [user@user-PC FindMyPi]$ sudo ./FMP.sh wlp2s0
 [sudo] password for user: 
