@@ -5,6 +5,8 @@
 [![DevelopmentStatus](https://img.shields.io/badge/Development-Stopped-red.svg)](https://img.shields.io/badge/Development-Stopped-red.svg)
 [![HitCount](http://hits.dwyl.io/Mrcuve0/FindMyPi.svg)](http://hits.dwyl.io/Mrcuve0/FindMyPi)
 
+![Twitter Follow](https://img.shields.io/twitter/follow/Mrcuve0?label=Follow%20Me%21%20%40Mrcuve0&style=social)
+
 ### Usage:
 ```
 > sudo ./FMP.sh <Network_Interface_Name>
